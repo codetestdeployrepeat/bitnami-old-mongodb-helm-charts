@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  mongodb:
+    - annotations:
+        category: Database
+      apiVersion: v2
+      appVersion: 4.4.13
+      created: "2022-04-23T15:18:27.306734932Z"
+      dependencies:
+        - name: common
+          repository: https://charts.bitnami.com/bitnami
+          tags:
+            - bitnami-common
+          version: 1.x.x
+      description: MongoDB(R) is a relational open source NoSQL database. Easy to use, it stores data in JSON-like documents. Automated scalability and high-performance. Ideal for developing cloud native applications.
+      digest: sha256:0e5e78e9fc77b0c33af82557d0ab5a107118b8d4bf2b800222872452d2c819f1
+      home: https://github.com/bitnami/charts/tree/master/bitnami/mongodb
+      icon: https://bitnami.com/assets/stacks/mongodb/img/mongodb-stack-220x234.png
+      keywords:
+        - mongodb
+        - database
+        - nosql
+        - cluster
+        - replicaset
+        - replication
+      maintainers:
+        - email: containers@bitnami.com
+          name: Bitnami
+      name: mongodb
+      sources:
+        - https://github.com/bitnami/bitnami-docker-mongodb
+        - https://mongodb.org
+      urls:
+        - https://charts.bitnami.com/bitnami/mongodb-11.1.10.tgz
+      version: 11.1.10
+generated: "2023-03-16T20:06:54.59600878Z"
